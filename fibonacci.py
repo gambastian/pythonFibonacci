@@ -1,7 +1,7 @@
 user_input = input("Ingrese el limite para la serie de fibonacci:")
 try:
     limit = int(user_input)
-    print "Calculando serie de fibonacci inferior a " + str(limit)
+    print "Calculando serie de fibonacci inferior a " + str(limit) + ""
     serie = []
     index = 0
     current = 0
