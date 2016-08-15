@@ -12,7 +12,7 @@ try:
         elif index == 1:
             current = 1
         else:
-            current = serie[index-1] + serie[index-2]
+            current = serie[index - 1] + serie[index - 2]
 
         serie.append(current)
         if index > 1 and current <= limit:
